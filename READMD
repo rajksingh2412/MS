@@ -111,6 +111,7 @@ function countdown() {
   } else if (time === 0) {
     // Game is over
     isPlaying = false;
+    document.getElementById("word-input").disabled = true;
   }
   
   timeDisplay.innerHTML = time;
